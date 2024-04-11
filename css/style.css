@@ -1,0 +1,42 @@
+html,
+body {
+  width: 10rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+
+input[type='text'] {
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+  padding: 0.5rem 0.5rem;
+  color: #333;
+}
+
+button {
+  border: none;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  background: #eee;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+button[type='reset'] {
+  background-color: #fbfbc9;
+}
+
+button[type='reset']:hover {
+  background-color: #eaea9d;
+}
